@@ -326,7 +326,7 @@ class MyController extends Controller
     {
         $this->data = $this->shopifyApi->checkAuthorization('MyController.frozen');
 
-        return View::make('home.frozen')
+        return View::make('shopify.frozen')
             ->with('data', $this->data);
     }
 

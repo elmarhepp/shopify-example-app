@@ -9,6 +9,8 @@
   "type": "project",
   "require": {
     "laravel/framework": "5.0.*",
+    "mailgun/mailgun-php": "~1.7.2",
+    "guzzlehttp/guzzle": "~4.0",
     "barryvdh/laravel-ide-helper": "2.0.*@dev"
   },
   "require-dev": {
